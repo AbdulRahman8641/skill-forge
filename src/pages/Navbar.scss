@@ -1,0 +1,27 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, sans-serif; // Default system font
+    padding: 15px 20px;
+    z-index: 1000;
+  
+    .navbar-brand, .nav-link {
+      color: rgb(15, 2, 2) !important;
+      font-weight: 600;
+      transition: color 0.3s ease-in-out;
+      
+      &:hover {
+        color: #f39c12 !important;
+      }
+    }
+  
+    .navbar-toggler {
+      border: none;
+      
+      .navbar-toggler-icon {
+        filter: invert(1);
+      }
+    }
+  }
+  
